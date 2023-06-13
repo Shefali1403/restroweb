@@ -1,0 +1,169 @@
+
+#nav{
+   display: flex;
+   flex-direction: column;
+}
+#nav .menu{
+    justify-content: center;
+}
+#nav .menu li{
+    /* font-size: 0.6rem;  */
+    padding: 32px 6px;
+}
+#nav .menu li a{
+    font-size: 0.5rem;
+    margin:16px 4px;
+}
+#nav .icon{
+    justify-content: center;
+}
+#main .h1-pre, .h1-sec{
+    font-size: 2rem;
+}
+#main .but{
+    align-items: center;
+    flex-direction: column;
+}
+#main .but .btn1{
+   margin: 10px 40px;
+}
+#main .but .btn1 button{
+    padding: 12px 21px;
+}
+#main .btn .btn2 button{
+    padding: 12px 25px;
+}
+#main .but .btn2{
+    margin: 17px 40px;
+}
+#dailydeal{
+    height:2370px;
+}
+#dailydeal .eat{
+    display:flex;
+    flex-direction: column;
+}
+#dailydeal .head{
+    text-align: center;
+    font-size: 1rem;
+}
+#dailydeal .eat .para .h-primary{
+font-size: 2.5rem;
+margin: 2px 120px;
+}
+#dailydeal .eat .para{
+    align-self: center;
+}
+#dailydeal .eat .para>p{
+    font-size: 1rem;
+    margin: 2px 37px;
+
+}
+#dailydeal .eat .para .desc{
+    font-size: 0.8rem;
+
+}
+#dailydeal .eat .image img{
+    width:105%;
+}
+#dailydeal .eat .para .btn{
+    margin:14px 99px
+
+}
+#dailydeal .drink{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#dailydeal .drink .image img{
+    width:107%;
+}
+#dailydeal .drink .para{
+    align-self: center;
+}
+#dailydeal .drink .para>p{
+    margin:12px 2px;
+
+}
+#dailydeal .drink .para .desc{
+    font-size: 0.8rem;
+    margin: 13px 3px;
+
+}
+#dailydeal .enjoy{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dailydeal .enjoy .para{
+    align-self: center;
+    margin: 9px 2px;
+}
+#dailydeal .enjoy .para>p{
+    font-size: 1rem;
+
+}
+#dailydeal .enjoy .para .desc{
+    margin: 16px 5px;
+    font-size: 0.8rem;
+
+}
+#dailydeal .enjoy .image img{
+    width:103%;
+}
+#info{
+    height:2372px;
+}
+#info .head h1{
+    text-align: center;
+    font-size: 2rem;
+}
+#info .writeup{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#info .writeup .item2 h2{
+    padding: 29px 2px;
+}
+#info .photo{
+    flex-direction: column;
+}
+#info .photo .box img{
+    width:100%;
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    height:536px;
+}
+#final::before{
+    height: 703px;
+}
+#final .item1 h1{
+    font-size: 1.5rem;
+    margin:2px 12px;
+}
+#final .item1 p{
+    font-size: 0.5rem;
+    margin:3px 6px;
+}
+#final .item1 form input{
+    margin:2px 4px;
+}
+#final .item2 h1{
+    font-size: 1.6rem;
+    margin:2px 35px;
+}
+#final .item2 pre{
+    margin:14px 7px;
+}
+#final .item3 h1{
+    margin:11px 45px;
+    font-size: 1rem;
+}
+footer h4{
+    font-size: 0.7rem;
+}
